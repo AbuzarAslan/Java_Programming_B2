@@ -1,6 +1,7 @@
 package day12_switch_statements;
 
 public class NumberWords {
+
     public static void main(String[] args) {
 
         int n = 2; // Number must be between 1 and 5 (inclusive)
@@ -161,5 +162,21 @@ public class NumberWords {
                 System.out.println("Four");
         }
     }
+
+
+    // switch statement - does not care about the order of the cases or default if ALL OF THEM have the break; statement
+    switch (n) {  //  char, byte, short, int, String  | It will not work with boolean expression - we need EXACT value |
+        case 2:
+        case 3:  // in if statement: ---- >  if (n == 1) {
+            System.out.println("ONumber is equal ot 2 or 3");
+            break;
+        case 5:
+            System.out.println("Five");
+        default:
+            System.out.println("Invalid number");
+        case 4:
+            System.out.println("Four");
+    }
+}
 
 }

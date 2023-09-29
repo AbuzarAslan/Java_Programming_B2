@@ -13,17 +13,13 @@ declare and assign the grade level variable
         location -  Apple orchard
         number of groups - 3
         teacher in charge - Ms. Smith
-
-        grade - 2
-        location -  Zoo
-        number of groups - 2
-        teacher in charge - Ms. Tom
  */
 
 public class FieldTrip {
     public static void main(String[] args) {
 
-        int gradeLevel = 6;  // input.nextInt();
+
+        int gradeLevel = 6;  //put.nextInt();
         String location = ""; // empty string
         int numOfGroups = 0;
         String teacher = "";

@@ -1,4 +1,5 @@
 package day12_switch_statements;
+
 import java.util.Scanner;
 
 /*
@@ -41,6 +42,7 @@ public class Starbucks {
         System.out.print("What size of drink do you want? ");
         String size = input.next();
 
+
         switch (size) {
             case "tall":
                 price = 2.50;
@@ -52,12 +54,15 @@ public class Starbucks {
                 calories = 150;
                 break;
 
+
             case "venti":
+
                 price = 4.50;
                 calories = 200;
                 break;
 
             default:
+
                 System.out.println("We do not have the size");
                 isNotValid = false;
 
@@ -70,5 +75,6 @@ public class Starbucks {
 
 
     }
+
 
 }
