@@ -1,4 +1,5 @@
 package day12_switch_statements;
+
 import java.util.Scanner;
 
 /*
@@ -60,4 +61,5 @@ public class Schedule {
 
 
     }
+
 }
