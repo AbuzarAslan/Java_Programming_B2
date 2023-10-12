@@ -47,7 +47,8 @@ public class MiddleChar {
 
 
 
-
-
     }
+
+
+
 }
