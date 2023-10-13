@@ -1,19 +1,6 @@
 package day20_nested_loops;
-
 import java.util.Scanner;
 
-/*
-    Similar to FizzBuzz
-
-    number
-        % 3 --> fin
-        % 5 --> ra
-        both --> finra
-        neither --> number
-
-    repeated up to some number
-
- */
 public class FinRaInRange {
     public static void main(String[] args) {
 
@@ -46,5 +33,6 @@ public class FinRaInRange {
 
 
     }
+
 
 }
