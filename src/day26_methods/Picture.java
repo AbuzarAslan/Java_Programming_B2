@@ -53,10 +53,4 @@ public class Picture {
 //    public static void test (int d) {
 //        System.out.println("Testing method with double: " + d);
 //    }
-
-
-
-
-
-
 }
